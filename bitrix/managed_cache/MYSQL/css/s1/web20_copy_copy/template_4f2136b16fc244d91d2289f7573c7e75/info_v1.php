@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/web20_copy_copy/styles.css" => "16549576221093","/local/templates/web20_copy_copy/template_styles.css" => "165495762210959",]; ?>

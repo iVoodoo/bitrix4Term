@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/landing24/template_styles.css" => "16543727702316",]; ?>

@@ -1,0 +1,36 @@
+
+
+/* Start:/local/templates/web20_copy/components/bitrix/news.list/articles/style.css?165494873173*/
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/news.list/templates/.default/style.css?1654372695150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/player/templates/.default/style.min.css?1654372639122*/
+td.popupmenu div.popupitem .playlist-edit{background-image:url(/bitrix/components/bitrix/player/images/playlist_edit.gif)}
+/* End */
+/* /local/templates/web20_copy/components/bitrix/news.list/articles/style.css?165494873173 */
+/* /bitrix/components/bitrix/news.list/templates/.default/style.css?1654372695150 */
+/* /bitrix/components/bitrix/player/templates/.default/style.min.css?1654372639122 */

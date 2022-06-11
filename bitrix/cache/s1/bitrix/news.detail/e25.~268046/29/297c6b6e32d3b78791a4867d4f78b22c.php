@@ -1,0 +1,37 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001654952385';
+$dateexpire = '001690952385';
+$ser_content = 'a:2:{s:7:"CONTENT";s:5956:"<div class="news-detail">
+			<img
+			class="detail_picture"
+			border="0"
+			src="/upload/iblock/6b3/j2mkqqga1453mkwlajr5xo605872wuo1/db8803981b6ed2a612531126cb58c105.jpg"
+			width="3000"
+			height="2000"
+			alt="VR-гарнитура Varjo получает интерфейс мозг-компьютер"
+			title="VR-гарнитура Varjo получает интерфейс мозг-компьютер"
+			/>
+				<span class="news-date-time">11.06.2022</span>
+				<h3>VR-гарнитура Varjo получает интерфейс мозг-компьютер</h3>
+					Varjo, производитель высококачественных гарнитур XR, и OpenBCI, компания, создающая решения для интерфейса мозг-компьютер с открытым исходным кодом, объявили о новом партнерстве, в рамках которого долгожданный нейронный интерфейс OpenBCI «Galea» будет использоваться в новейшей гарнитуре Varjo Aero, что обеспечит «более глубокое понимание для расширения человеческого разума».<br />
+<br />
+Еще в конце 2020 года OpenBCI первоначально анонсировала Galea — аппаратно-программную платформу, предназначенную для объединения технологии интерфейса мозг-компьютер с гарнитурами XR.<br />
+<br />
+Это область исследований, к которой стремятся многие компании в надежде, что такие неинвазивные устройства могут предоставить множество новых данных. Знание того, как человек в режиме реального времени реагирует на виртуальные стимулы, может дать разработчикам в будущем больше способов обслуживания динамического контента.<br />
+<br />
+Теперь же бруклинская компания, расположенная в Нью-Йорке, заявляет, что привлекает претендентов на участие в бета-тестировании, охватывающих потребительские технологии, здравоохранение, обучение, игры и интерактивные медиа. Финский производитель гарнитуры XR Varjo, известный своими&nbsp;&nbsp;гарнитурами с исключительно высоким разрешением, в первую очередь предназначенными для предприятий, выпускает свою гарнитуру виртуальной реальности Aero с бета-системой Galea, аккуратно встроенной в ремешок гарнитуры.<br />
+<br />
+Говорят, что Galea включает в себя набор датчиков, в том числе электроэнцефалограммы &#40;ЭЭГ&#41;, электроокулографии &#40;ЭОГ&#41;, электромиографии &#40;ЭМГ&#41;, электродермальной активности &#40;ЭДА&#41; и фотоплетизмографии &#40;ФПГ&#41;, которые предназначены для измерения данных из мозга, глаз, сердца, кожи и мышц пользователя.<br />
+<br />
+Varjo Aero — это «урезанная» версия новейшей гарнитуры компании, которая предлагает лучшую в отрасли точность и расширенные функции по более низкой &#40;не дешевой&#41; цене, что делает предложение компании более привлекательным для среднего бизнеса и состоятельных энтузиастов виртуальной реальности. Без Galea Varjo Aero стоит 2000 долларов и не требует годовой абонентской платы, что сильно отличается от предыдущих корпоративных гарнитур компании, которые стоят от 3200 до 5500 долларов &#40;плюс 800–1500 долларов в год&#41;.<br />
+<br />
+OpenBCI и Varjo открывают предварительные заказы, начиная с 31 мая специально для компаний, разработчиков и исследователей, которые уже подали заявку на участие в программе бета-тестирования Galea. Говорят, что комбинация гарнитуры и BCI включает в себя SDK с готовыми строительными блоками для доступа к данным датчиков внутри Unity, Python и некоторых других распространенных сред разработки.<br />
+<br />
+Если после предварительных заказов останутся какие-либо устройства, компании откроют продажу для широкой публики 1 июля 2022 года. Однако неизвестно, какую цену компании намерены взимать за Aero с поддержкой BCI.<br />
+<br />
+Ознакомьтесь с полными характеристиками гарнитуры Varjo Aero в нашей статье.		<div style="clear:both"></div>
+	<br />
+	</div>";s:4:"VARS";a:2:{s:8:"arResult";a:12:{s:2:"ID";s:2:"75";s:9:"IBLOCK_ID";s:1:"8";s:4:"NAME";s:91:"VR-гарнитура Varjo получает интерфейс мозг-компьютер";s:17:"IBLOCK_SECTION_ID";N;s:6:"IBLOCK";a:92:{s:2:"ID";s:1:"8";s:3:"~ID";s:1:"8";s:11:"TIMESTAMP_X";s:19:"11.06.2022 15:19:20";s:12:"~TIMESTAMP_X";s:19:"11.06.2022 15:19:20";s:14:"IBLOCK_TYPE_ID";s:6:"newsVr";s:15:"~IBLOCK_TYPE_ID";s:6:"newsVr";s:3:"LID";s:2:"s1";s:4:"~LID";s:2:"s1";s:4:"CODE";s:0:"";s:5:"~CODE";s:0:"";s:8:"API_CODE";N;s:9:"~API_CODE";N;s:7:"REST_ON";s:1:"N";s:8:"~REST_ON";s:1:"N";s:4:"NAME";s:17:"Новости VR";s:5:"~NAME";s:17:"Новости VR";s:6:"ACTIVE";s:1:"Y";s:7:"~ACTIVE";s:1:"Y";s:4:"SORT";s:3:"500";s:5:"~SORT";s:3:"500";s:13:"LIST_PAGE_URL";s:22:"/newsVr/index.php?ID=8";s:14:"~LIST_PAGE_URL";s:22:"/newsVr/index.php?ID=8";s:15:"DETAIL_PAGE_URL";s:44:"#SITE_DIR#/newsVr/detail.php?ID=#ELEMENT_ID#";s:16:"~DETAIL_PAGE_URL";s:44:"#SITE_DIR#/newsVr/detail.php?ID=#ELEMENT_ID#";s:16:"SECTION_PAGE_URL";s:50:"#SITE_DIR#/newsVr/list.php?SECTION_ID=#SECTION_ID#";s:17:"~SECTION_PAGE_URL";s:50:"#SITE_DIR#/newsVr/list.php?SECTION_ID=#SECTION_ID#";s:18:"CANONICAL_PAGE_URL";s:0:"";s:19:"~CANONICAL_PAGE_URL";s:0:"";s:7:"PICTURE";N;s:8:"~PICTURE";N;s:11:"DESCRIPTION";s:0:"";s:12:"~DESCRIPTION";s:0:"";s:16:"DESCRIPTION_TYPE";s:4:"text";s:17:"~DESCRIPTION_TYPE";s:4:"text";s:7:"RSS_TTL";s:2:"24";s:8:"~RSS_TTL";s:2:"24";s:10:"RSS_ACTIVE";s:1:"Y";s:11:"~RSS_ACTIVE";s:1:"Y";s:15:"RSS_FILE_ACTIVE";s:1:"N";s:16:"~RSS_FILE_ACTIVE";s:1:"N";s:14:"RSS_FILE_LIMIT";N;s:15:"~RSS_FILE_LIMIT";N;s:13:"RSS_FILE_DAYS";N;s:14:"~RSS_FILE_DAYS";N;s:17:"RSS_YANDEX_ACTIVE";s:1:"N";s:18:"~RSS_YANDEX_ACTIVE";s:1:"N";s:6:"XML_ID";N;s:7:"~XML_ID";N;s:6:"TMP_ID";N;s:7:"~TMP_ID";N;s:13:"INDEX_ELEMENT";s:1:"Y";s:14:"~INDEX_ELEMENT";s:1:"Y";s:13:"INDEX_SECTION";s:1:"Y";s:14:"~INDEX_SECTION";s:1:"Y";s:8:"WORKFLOW";s:1:"N";s:9:"~WORKFLOW";s:1:"N";s:7:"BIZPROC";s:1:"N";s:8:"~BIZPROC";s:1:"N";s:15:"SECTION_CHOOSER";s:1:"L";s:16:"~SECTION_CHOOSER";s:1:"L";s:9:"LIST_MODE";s:0:"";s:10:"~LIST_MODE";s:0:"";s:11:"RIGHTS_MODE";s:1:"S";s:12:"~RIGHTS_MODE";s:1:"S";s:16:"SECTION_PROPERTY";s:1:"N";s:17:"~SECTION_PROPERTY";s:1:"N";s:14:"PROPERTY_INDEX";s:1:"N";s:15:"~PROPERTY_INDEX";s:1:"N";s:7:"VERSION";s:1:"1";s:8:"~VERSION";s:1:"1";s:17:"LAST_CONV_ELEMENT";s:1:"0";s:18:"~LAST_CONV_ELEMENT";s:1:"0";s:15:"SOCNET_GROUP_ID";N;s:16:"~SOCNET_GROUP_ID";N;s:16:"EDIT_FILE_BEFORE";s:0:"";s:17:"~EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:16:"~EDIT_FILE_AFTER";s:0:"";s:13:"SECTIONS_NAME";s:14:"Разделы";s:14:"~SECTIONS_NAME";s:14:"Разделы";s:12:"SECTION_NAME";s:12:"Раздел";s:13:"~SECTION_NAME";s:12:"Раздел";s:13:"ELEMENTS_NAME";s:16:"Элементы";s:14:"~ELEMENTS_NAME";s:16:"Элементы";s:12:"ELEMENT_NAME";s:14:"Элемент";s:13:"~ELEMENT_NAME";s:14:"Элемент";s:11:"EXTERNAL_ID";N;s:12:"~EXTERNAL_ID";N;s:8:"LANG_DIR";s:1:"/";s:9:"~LANG_DIR";s:1:"/";s:11:"SERVER_NAME";s:0:"";s:12:"~SERVER_NAME";s:0:"";}s:13:"LIST_PAGE_URL";s:1:"/";s:14:"~LIST_PAGE_URL";s:1:"/";s:11:"SECTION_URL";s:0:"";s:7:"SECTION";a:1:{s:4:"PATH";a:0:{}}s:16:"IPROPERTY_VALUES";a:0:{}s:11:"TIMESTAMP_X";s:19:"11.06.2022 15:33:39";s:9:"META_TAGS";a:4:{s:5:"TITLE";s:91:"VR-гарнитура Varjo получает интерфейс мозг-компьютер";s:13:"BROWSER_TITLE";s:0:"";s:8:"KEYWORDS";s:0:"";s:11:"DESCRIPTION";s:0:"";}}s:18:"templateCachedData";a:3:{s:13:"additionalCSS";s:87:"/bitrix/components/bitrix/news/templates/.default/bitrix/news.detail/.default/style.css";s:9:"frameMode";b:1;s:8:"__NavNum";i:1;}}}';
+return true;
+?>

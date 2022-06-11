@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/js/main/core/core_fx.js" => "16543725409768",]; ?>
