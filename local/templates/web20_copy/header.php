@@ -23,7 +23,7 @@
 		);?>
 	</div>
 
-	<div id="company_logo"></div>
+	<!-- <div id="company_logo"></div> -->
 
 	<!-- <div id="search">
 		&nbsp;Поиск на сайте

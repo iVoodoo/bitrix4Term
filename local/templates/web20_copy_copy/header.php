@@ -7,8 +7,9 @@
   <? $APPLICATION->ShowHead() ?>
   <title><? $APPLICATION->ShowTitle() ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link href="<?= SITE_TEMPLATE_PATH ?>/assets/img/favicon.png" rel="icon">
-  <link href="<?= SITE_TEMPLATE_PATH ?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link href="<?= SITE_TEMPLATE_PATH ?>/assets/img/favicon.png" rel="icon">
+  <link href="<?= SITE_TEMPLATE_PATH ?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -31,9 +32,14 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="/index.php">Green</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <div class="logo me-auto"><a href="/index.php">
+          <? $APPLICATION->IncludeFile(
+            $APPLICATION->GetTemplatePath("include_areas/company_name.php"),
+            array(0),
+            array("MODE" => "html")
+          ); ?>
+        </a>
+      </div>
 
       <? $APPLICATION->IncludeComponent(
         "bitrix:menu",
@@ -67,26 +73,18 @@
         <div class="d-flex justify-content-between align-items-center">
           <!-- <h2>Inner Page</h2> -->
           <? $APPLICATION->IncludeComponent(
-	"bitrix:breadcrumb", 
-	"top_navigate_bar", 
-	array(
-		"START_FROM" => "0",
-		"PATH" => "",
-		"SITE_ID" => "s1",
-		"COMPONENT_TEMPLATE" => "top_navigate_bar"
-	),
-	false
-); ?>
+            "bitrix:breadcrumb",
+            "top_navigate_bar",
+            array(
+              "START_FROM" => "0",
+              "PATH" => "",
+              "SITE_ID" => "s1",
+              "COMPONENT_TEMPLATE" => "top_navigate_bar"
+            ),
+            false
+          ); ?>
 
         </div>
 
       </div>
-    </section><!-- End Breadcrumbs -->
-
-    <!-- <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template -->
-        <!-- </p>
-      </div>
-    </section> -->
+    </section>
