@@ -9,28 +9,28 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Области применения VR", 
-		"/applicationVr/", 
+		"/application-vr/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"VR оборудование", 
-		"/deviceVr/", 
+		"/device-vr/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Новости из  мира VR", 
-		"/newsVr/", 
+		"/news-vr/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Статьи о VR", 
-		"/articleVr", 
+		"/article-vr", 
 		Array(), 
 		Array(), 
 		"" 
