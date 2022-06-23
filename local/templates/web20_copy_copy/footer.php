@@ -3,12 +3,13 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 IncludeTemplateLangFile(__FILE__);
 ?>
 
+</section>
 </main><!-- End #main -->
 
 <!-- ======= Footer ======= -->
-<footer id="footer">
+<footer id="footer" class="mt-auto">
   <div class="container">
-    <h3><? $APPLICATION->IncludeFile(
+    <h3 class="title"><? $APPLICATION->IncludeFile(
           $APPLICATION->GetTemplatePath("include_areas/company_name.php"),
           array(0),
           array("MODE" => "html")
@@ -18,7 +19,10 @@ IncludeTemplateLangFile(__FILE__);
     </div>
 
   </div>
+  
 </footer>
+<!-- <script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/chart.js"></script> -->
+
 <!-- =======  End Footer =======  -->
 
 <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
@@ -32,6 +36,11 @@ IncludeTemplateLangFile(__FILE__);
 
 <!-- Template Main JS File -->
 <script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/main.js"></script>
+<!-- <script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/chart.js"></script> -->
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Dark.js"></script>
 
 </body>
 

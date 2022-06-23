@@ -1,7 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости из мира VR");
-?><?$APPLICATION->IncludeComponent(
+?>
+<? Global $arFilter;
+$arFilter = ["PROPERTY_CONTENT_TYPE_VALUE" => "НОВОСТЬ"];?>
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"page_news", 
 	array(
@@ -17,7 +20,7 @@ $APPLICATION->SetTitle("Новости из мира VR");
 		"CACHE_GROUPS" => "N",
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "N",
-		"CHECK_DATES" => "Y",
+		"CHECK_DATES" => "N",
 		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
@@ -84,13 +87,22 @@ $APPLICATION->SetTitle("Новости из мира VR");
 		"SORT_ORDER2" => "ASC",
 		"STRICT_SECTION_CHECK" => "N",
 		"USE_CATEGORIES" => "N",
-		"USE_FILTER" => "N",
+		"USE_FILTER" => "Y",
+		"FILTER_NAME" => "arFilter",
 		"USE_PERMISSIONS" => "N",
 		"USE_RATING" => "N",
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
 		"USE_SHARE" => "N",
 		"COMPONENT_TEMPLATE" => "page_news",
+		"FILTER_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_PROPERTY_CODE" => array(
+			0 => "CONTENT_TYPE",
+			1 => "",
+		),
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",

@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Главная";
 $arDirProperties = Array(
-   "ROBOTS" => "index, follow"
+   "title" => "VR LIFE"
 );
 ?>

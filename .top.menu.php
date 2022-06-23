@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"История VR", 
-		"/", 
+		"/history-vr/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -30,14 +30,14 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Статьи о VR", 
-		"/article-vr", 
+		"/article-vr/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Контакты", 
-		"/contacts", 
+		"/contacts/", 
 		Array(), 
 		Array(), 
 		"" 
