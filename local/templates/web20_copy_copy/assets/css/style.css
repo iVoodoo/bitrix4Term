@@ -1,10 +1,15 @@
 /* body{margin-top:20px;} */
 
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
 #chartdiv {
   width: 100%;
   height: 500px;
 }
-
 main {
   background: #241a44;
 }
@@ -12,6 +17,8 @@ main {
 body {
   font-family: "Open Sans", sans-serif;
   color: #ececed;
+  background: #241a44;
+  margin-bottom: 90px;
 }
 
 a {
@@ -873,6 +880,37 @@ div .box.tags ul li i {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 } */
+
+/*
+CONTACTS
+*/
+
+/* .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff; 
+  background-clip: border-box;
+  border: 1pxsolidrgba(0,0,0,.125);
+  border-radius: 0.25rem;
+} */
+
+.card {
+  background-color: transparent; 
+  border: none;
+  box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+}
+
+.card:hover i, .card:hover h4{
+	color: #d3167c;
+}
+
+.card-body p{    
+  text-indent: 0em;
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1925,6 +1963,13 @@ section h1, h2, h3, h4, h5, h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  /* position: absolute; */
+  /* bottom: 0;
+  width: 100%; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 90px; */
   background: #23232b;
   color: #d3167c;
   font-size: 14px;

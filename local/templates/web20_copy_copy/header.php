@@ -7,7 +7,7 @@
   <? $APPLICATION->ShowHead() ?>
   <title><? $APPLICATION->ShowTitle() ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"> -->
  
   <!-- <link href="<?= SITE_TEMPLATE_PATH ?>/assets/img/favicon.png" rel="icon">
   <link href="<?= SITE_TEMPLATE_PATH ?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
@@ -28,7 +28,11 @@
 
   <!-- Template Main CSS File -->
   <link href="<?= SITE_TEMPLATE_PATH ?>/assets/css/style.css" rel="stylesheet">
-  
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+
+  <!-- <script src="//cdn.amcharts.com/lib/5/index.js"></script>
+<script src="//cdn.amcharts.com/lib/5/percent.js"></script>
+<script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script> -->
 </head>
 
 <body>

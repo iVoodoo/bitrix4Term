@@ -7,8 +7,8 @@ IncludeTemplateLangFile(__FILE__);
 </main><!-- End #main -->
 
 <!-- ======= Footer ======= -->
-<footer id="footer" class="mt-auto">
-  <div class="container">
+<footer id="footer" class="">
+  <div class="container" data-attr="">
     <h3 class="title"><? $APPLICATION->IncludeFile(
           $APPLICATION->GetTemplatePath("include_areas/company_name.php"),
           array(0),
@@ -36,10 +36,12 @@ IncludeTemplateLangFile(__FILE__);
 
 <!-- Template Main JS File -->
 <script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/main.js"></script>
-<!-- <script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/chart.js"></script> -->
-<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/chart.js"></script>
+<script src="//cdn.amcharts.com/lib/5/index.js"></script>
+<script src="//cdn.amcharts.com/lib/5/percent.js"></script>
+<script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+
 <script src="https://cdn.amcharts.com/lib/5/themes/Dark.js"></script>
 
 </body>
