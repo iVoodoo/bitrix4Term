@@ -16,4 +16,17 @@ $APPLICATION->SetTitle("VR LIFE");
 <h2>Статьи</h2>
 <p>
 	 Раздел со статьями содержит различные статьи на тему VR, где представлены интересные темы из мира VR.
+</p>
+<p>
+	 <?$APPLICATION->IncludeComponent(
+	"chart", 
+	".default", 
+	array(
+		"CHART_TYPE" => "pie",
+		"IBLOCKS" => "9",
+		"IBLOCK_TYPE" => "statsVr",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?><br>
 </p><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

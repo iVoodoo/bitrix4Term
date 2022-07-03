@@ -31,8 +31,6 @@ $type = $arParams['CHART_TYPE'];
 <script>
 	BX.ready(function() {
     let type = '<?= $type;?>';
-    console.log(type);
-		drawChart(<?= json_encode($chartParams) ?>, type);
-		
+		drawChart(<?= json_encode($chartParams) ?>, type);		
 	});
 </script>

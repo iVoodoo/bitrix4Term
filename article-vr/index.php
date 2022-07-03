@@ -8,8 +8,8 @@ $arFilterArticle = ["PROPERTY_CONTENT_TYPE_VALUE" => "СТАТЬЯ"];?>
 	"bitrix:news", 
 	"page_news", 
 	array(
-		"ADD_ELEMENT_CHAIN" => "N",
-		"ADD_SECTIONS_CHAIN" => "Y",
+		"ADD_ELEMENT_CHAIN" => "Y",
+		"ADD_SECTIONS_CHAIN" => "N",
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"AJAX_OPTION_HISTORY" => "N",
@@ -32,7 +32,7 @@ $arFilterArticle = ["PROPERTY_CONTENT_TYPE_VALUE" => "СТАТЬЯ"];?>
 		"DETAIL_PAGER_TEMPLATE" => "",
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PROPERTY_CODE" => array(
-			0 => "",
+			0 => "SOURCE_LINK",
 			1 => "",
 		),
 		"DETAIL_SET_CANONICAL_URL" => "N",
@@ -67,7 +67,7 @@ $arFilterArticle = ["PROPERTY_CONTENT_TYPE_VALUE" => "СТАТЬЯ"];?>
 		"PAGER_TEMPLATE" => ".default",
 		"PAGER_TITLE" => "Новости",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"SEF_MODE" => "N",
+		"SEF_MODE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_STATUS_404" => "N",
 		"SET_TITLE" => "Y",
@@ -86,9 +86,19 @@ $arFilterArticle = ["PROPERTY_CONTENT_TYPE_VALUE" => "СТАТЬЯ"];?>
 		"USE_SEARCH" => "N",
 		"USE_SHARE" => "N",
 		"COMPONENT_TEMPLATE" => "page_news",
-		"VARIABLE_ALIASES" => array(
-			"SECTION_ID" => "SECTION_ID",
-			"ELEMENT_ID" => "ELEMENT_ID",
+		"FILTER_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"SEF_FOLDER" => "/article-vr/",
+		"SEF_URL_TEMPLATES" => array(
+			"news" => "",
+			"section" => "",
+			"detail" => "#ELEMENT_CODE#/",
 		)
 	),
 	false

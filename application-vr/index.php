@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Области применения VR");
 ?><h2>Области применения VR<br>
-</h2>
+ </h2>
 <p>
 	 Проекты виртуальной (VR)&nbsp;реальности могут не только создавать концептуально новые рынки, но и расширять уже имеющиеся. Мы рассмотрим 9 сфер применения технологий VR: видеоигры, мероприятия в прямом эфире, кино и сериалы, продажи, образование, здравоохранение, военную промышленность, продажи недвижимости и проектирование.
 </p>
@@ -26,19 +26,20 @@ $APPLICATION->SetTitle("Области применения VR");
 <p>
 	 С помощью VR можно обучать хирургов, тренировать навыки врачей, консультировать пациентов.&nbsp;<br>
 </p>
- На диаграмме ниже представлены данные о количестве пользователей VR в различных отраслях её применения.<br>
+ На диаграмме ниже представлены данные о количестве пользователей VR в различных отраслях её применения в миллионах.<br>
  <?$APPLICATION->IncludeComponent(
-	"chart",
-	".default",
-	Array(
+	"chart", 
+	".default", 
+	array(
 		"ADD_ELEMENT_CHAIN" => "N",
 		"ADD_SECTIONS_CHAIN" => "Y",
-		"CHART_TYPE" => "xy_chart",
+		"CHART_TYPE" => "pie",
 		"COMPONENT_TEMPLATE" => ".default",
-		"IBLOCKS" => array(0=>"9",),
+		"IBLOCKS" => "9",
 		"IBLOCK_ID" => "9",
 		"IBLOCK_TYPE" => "statsVr",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y"
-	)
+	),
+	false
 );?><br>
  <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
